@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>England - Group Stages | Euro</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/svg" href="/project/images/favicon-image.svg"/>
+    <link rel="stylesheet" href="group-stages.css">
+    <link rel="stylesheet" href="/project/home.css">
+
+    <script defer type="text/javascript" src="group-stages.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav id="navBar"></nav>
+    
+    <main>
+      <article>
+        <h1>Group D</h1>
+        <div class="group-table">
+          <table>
+            <thead>
+              <tr>          
+                <th class="team-name-header"></th>
+                <th>
+                  <span class="big-label">Played</span>
+                  <span class="small-label">P</span>
+                </th>
+                <th>
+                  <span class="big-label">Won</span>
+                  <span class="small-label">W</span>
+                </th>
+                <th>
+                  <span class="big-label">Drawn</span>
+                  <span class="small-label">D</span>
+                </th>
+                <th>
+                  <span class="big-label">Lost</span>
+                  <span class="small-label">L</span>
+                </th>
+                <th class="for-label">For</th>
+                <th class="against-label">Against</th>
+                <th class="difference-label">Goal Difference</th>
+                <th class="team-points">
+                  <span class="big-label">
+                    <strong>Points</strong>
+                  </span>
+                  <span class="small-label">
+                    <strong>Pts</strong>
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            
+            <tbody>
+              <tr>
+                <td class="team-name">
+                  <a class="openModal" data-modal-target="#modal-croatia">
+                    <span class="team-img-name">
+                      <img src="../images/croatia.svg" alt="Croatia Flag" class="team-img">
+                      <span class="team">Croatia</span>
+                    </span>
+                  </a>
+                </td>
+                <td class="played-label">0</td>
+                <td class="won-label">0</td>
+                <td class="drawn-label">0</td>
+                <td class="lost-label">0</td>
+                <td class="for-label">0</td>
+                <td class="against-label">0</td>
+                <td class="difference-label">0</td>
+                <td class="team-points"><strong>0</strong></td>
+              </tr>
+
+              <tr>
+                <td class="team-name">
+                  <a class="openModal" data-modal-target="#modal-czech-republic">
+                    <span class="team-img-name">
+                      <img src="../images/czech-republic.svg" alt="Czech Republic Flag" class="team-img">
+                      <span class="team">Czech Republic</span>
+                    </span>
+                  </a>
+                </td>
+                <td class="played-label">0</td>
+                <td class="won-label">0</td>
+                <td class="drawn-label">0</td>
+                <td class="lost-label">0</td>
+                <td class="for-label">0</td>
+                <td class="against-label">0</td>
+                <td class="difference-label">0</td>
+                <td class="team-points"><strong>0</strong></td>
+              </tr>
+
+              <tr>
+                <td class="team-name">
+                  <a class="openModal" data-modal-target="#modal-england">
+                    <span class="team-img-name">
+                      <img src="../images/england.svg" alt="England Flag" class="team-img">
+                      <span class="team">England</span>
+                    </span>
+                  </a>
+                </td>
+                <td class="played-label">0</td>
+                <td class="won-label">0</td>
+                <td class="drawn-label">0</td>
+                <td class="lost-label">0</td>
+                <td class="for-label">0</td>
+                <td class="against-label">0</td>
+                <td class="difference-label">0</td>
+                <td class="team-points"><strong>0</strong></td>
+              </tr>
+
+              <tr>
+                <td class="team-name">
+                  <a class="openModal" data-modal-target="#modal-scotland">
+                    <span class="team-img-name">
+                      <img src="../images/scotland.svg" alt="Scotland Flag" class="team-img">
+                      <span class="team">Scotland</span>
+                    </span>
+                  </a>
+                </td>
+                <td class="played-label">0</td>
+                <td class="won-label">0</td>
+                <td class="drawn-label">0</td>
+                <td class="lost-label">0</td>
+                <td class="for-label">0</td>
+                <td class="against-label">0</td>
+                <td class="difference-label">0</td>
+                <td class="team-points"><strong>0</strong></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="modal" id="modal-croatia">
+            <div class="modal-header">
+              <h2 class="title"></h2>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-team-information"></p>
+              <p class="modal-team-pedigree"></p>
+              <br>
+              <img class="modal-captain-image">
+              <p class="modal-captain-name"></p>
+              <br>
+              <a class="modal-team-website" target="_blank">Croatian Football Federation Website</a>
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <div class="modal" id="modal-czech-republic">
+            <div class="modal-header">
+              <h2 class="title"></h2>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-team-information"></p>
+              <p class="modal-team-pedigree"></p>
+              <br>
+              <img class="modal-captain-image">
+              <p class="modal-captain-name"></p>
+              <br>
+              <a class="modal-team-website" target="_blank">Czech Republic Website</a>
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <div class="modal" id="modal-england">
+            <div class="modal-header">
+              <h2 class="title"></h2>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-team-information"></p>
+              <p class="modal-team-pedigree"></p>
+              <br>
+              <img class="modal-captain-image">
+              <p class="modal-captain-name"></p>
+              <br>
+              <a class="modal-team-website" target="_blank">The FA Website</a>
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <div class="modal" id="modal-scotland">
+            <div class="modal-header">
+              <h2 class="title"></h2>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-team-information"></p>
+              <p class="modal-team-pedigree"></p>
+              <br>
+              <img class="modal-captain-image">
+              <p class="modal-captain-name"></p>
+              <br>
+              <a class="modal-team-website" target="_blank">Scottish FA Website</a>
+            </div>
+          </div>
+          <div id="overlay"></div>
+
+          <div class="group-matches">
+            <a href="#" onclick="toggle_visibility('group-matches-table');">
+              <span class="group-matches-text" id="group-matches-text"></span>
+            </a>
+          </div>
+          
+          <div class="group-matches-table" id="group-matches-table">
+            <table id="table"></table>
+          </div>
+        </div>
+
+        <div class="form-guide accordion-wrapper">
+          <div class="accordion close">
+            <h2 class="accordion-heading croatia-heading" id="accordionCroatiaHeading"></h2>
+            <div class="croatia-form-guide accordion-content" id="croatiaFormGuide">
+              <p class="scores-croatia" id="scoresCroatia"></p>
+            </div>
+          </div>
+          <div class="accordion close">
+            <h2 class="accordion-heading czech-heading" id="accordionCzechHeading"></h2>
+            <div class="czech-form-guide accordion-content" id="czechFormGuide">
+              <p class="scores-czech" id="scoresCzech"></p>
+            </div>
+          </div>
+          <div class="accordion close">
+            <h2 class="accordion-heading england-heading" id="accordionEnglandHeading"></h2>
+            <div class="england-form-guide accordion-content" id="englandFormGuide">
+              <p class="scores-england" id="scoresEngland"></p>
+            </div>
+          </div>
+          <div class="accordion close">
+            <h2 class="accordion-heading scotland-heading" id="accordionScotlandHeading"></h2>
+            <div class="scotland-form-guide accordion-content" id="scotlandFormGuide">
+              <p class="scores-scotland" id="scoresScotland"></p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer id="footer"></footer>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "teamName": "Croatia",
+    "teamInformation": "Croatia have been in 5 previous final tournaments, going through to the quarter-finals in 1996 and 2008.",
+    "teamPedigree": "Since making their debut at EURO '96, Croatia have missed only one final tournament (2000) and have made it through the group stage three times, reaching the last eight in 1996 and 2008.",
+    "teamWebsite": "https://hns-cff.hr/en/",
+    "teamCaptain": "/project/images/luka-modric.jpeg",
+    "teamCaptainName": "Luka Modrić"
+  },
+  {
+    "teamName": "Czech Republic",
+    "teamInformation": "Czech Republic have won the tournament in 1996 when they were known as Czechoslovakia.",
+    "teamPedigree": "Czech Republic are ever-present at the UEFA European Championship as an independent nation, reaching seven successive final tournaments.",
+    "teamWebsite": "https://repre.fotbal.cz/",
+    "teamCaptain": "/project/images/borek-dockal.jpeg",
+    "teamCaptainName": "Bořek Dočkal"
+  },
+  {
+    "teamName": "England",
+    "teamInformation": "England have never won the tournament with the highest finish of third place in 1968.",
+    "teamPedigree": "England were 43 successive European Championship and World Cup qualifiers without defeat until they lost to Czech Republi in October of 2019.",
+    "teamWebsite": "https://www.thefa.com/",
+    "teamCaptain": "/project/images/harry-kane.jpeg",
+    "teamCaptainName": "Harry Kane"
+  },
+  {
+    "teamName": "Scotland",
+    "teamInformation": "Scotland have only qualified for 2 previous final tournaments and then getting knocked out in the group stages (1992, 1996).",
+    "teamPedigree": "Scotland have recorded some memorable victories in EURO qualification, however, the Tartan Army have managed to reach the group stage just twice and facing England at Wembley in 1996",
+    "teamWebsite": "https://www.scottishfa.co.uk/",
+    "teamCaptain": "/project/images/andrew-robertson.jpeg",
+    "teamCaptainName": "Andrew Robertson"
+  }
+]

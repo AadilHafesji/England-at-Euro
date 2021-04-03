@@ -1,0 +1,95 @@
+.red-button {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  background-color: #8E1600;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #FF0000;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+
+.red-button:hover {
+  background-color: #8E1600;
+  transform: translateY(4px);
+  box-shadow: 0 5px #FF0000;
+}
+
+.red-button:active {
+  background-color: #8E1600;
+  box-shadow: 0 5px #8E1600;
+  transform: translateY(8px);
+}
+
+.blue-button {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  background-color: #004170;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #0263A8;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+
+.blue-button:hover {
+  background-color: #004170;
+  transform: translateY(4px);
+  box-shadow: 0 5px #0263A8;
+}
+
+.blue-button:active {
+  background-color: #004170;
+  box-shadow: 0 5px #004170;
+  transform: translateY(8px);
+}
+
+button:disabled {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFF;
+  background-color: #464646;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #616161;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:disabled:hover {
+  background-color: #464646;
+  transform: translateY(4px);
+  box-shadow: 0 5px #616161;
+}
+
+button:disabled:active {
+  background-color: #464646;
+  box-shadow: 0 5px #464646;
+  transform: translateY(8px);
+}
+
+@media screen and (max-width: 800px) {
+  .red-button, .blue-button, button:disabled {
+    width: 100%;
+  }
+}

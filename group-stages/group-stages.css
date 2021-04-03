@@ -1,0 +1,467 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.group-table {
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px #DADADA;
+  margin: 40px auto 20px auto;
+  padding: 40px;
+  overflow: hidden;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: auto;
+}
+
+tr {
+  text-align: center;
+}
+
+th {
+  width: 10%;
+  height: auto;
+  padding: 12px;
+  padding-top: 0px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.team-name-header {
+  width: auto;
+}
+
+.small-label {
+  display: none;
+}
+
+.team-points {
+  border-left: 1px solid gainsboro;
+}
+
+table > tbody > tr {
+  border-bottom: 1px solid gainsboro;
+}
+
+.team-name {
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 0;
+  font-weight: 400;
+  vertical-align: middle;
+  font-size: 18px;
+  text-align: left;
+  height: 75px;
+  width: auto;
+  transition: transform 0.4s;
+}
+
+.team-name > a {
+  color: #000;
+}
+
+.team-name:hover {
+  transform: scale(1.15) rotate(0.01deg);
+}
+
+.team-img-name {
+  display: grid;
+  grid-template-columns: 30px auto;
+  grid-column-gap: 2px;
+}
+
+.team-img {
+  grid-column: 1;
+  width: 25px;
+}
+
+.team {
+  display: flex;
+  grid-column: 2;
+  position: relative;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-weight: 400;
+  font-size: 18px;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+}
+
+table > tbody > tr > td {
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  height: 75px;
+  width: 10%;
+}
+
+.group-matches {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.group-matches-text {
+  color: #30D5C8;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.group-matches-table {
+  display: none;
+}
+
+#table > tbody > tr > td {
+  font-size: 15px;
+}
+
+.accordion-heading {
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  background: #2980b9;
+  color: #fff;
+  width: 100%;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.close .accordion-content {
+  height: 0px;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: transform 0.4s ease;
+  float: left;
+  display: block;
+}
+
+.open .accordion-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 100%;
+  display:block;
+	transform: scaleY(1);
+	transform-origin: top;
+	transition: transform 0.4s ease;
+  box-sizing: border-box;
+}
+
+.open .accordion-heading {
+  margin: 0px;  
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: #bdc3c7;
+  color: #7f8c8d;
+}
+
+.croatia-heading {
+  background-color: #C8102E;
+}
+
+.czech-heading {
+  background-color: #003087;
+}
+
+.england-heading {
+  background-color: #00007E;
+}
+
+.scotland-heading {
+  background-color: #05005B;
+}
+
+.close .croatia-heading:hover {
+  background-color: #012169;
+}
+
+.close .czech-heading:hover {
+  background-color: #F00000;
+}
+
+.close .england-heading:hover {
+  background-color: #FF0000;
+}
+
+.close .scotland-heading:hover {
+  background-color: #940B13;
+}
+
+.form-guide {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+}
+
+.accordian-wrapper {
+  text-align: center;
+}
+
+.croatia-form-guide {
+  grid-column: 1;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.czech-form-guide {
+  grid-column: 2;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.england-form-guide {
+  grid-column: 3;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.scotland-form-guide {
+  grid-column: 4;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.colour-green {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  color: #01A35F;
+}
+
+.green-circle {
+  border: 2px solid #53DD6C;
+  border-radius: 50%;
+  padding: 20px;
+  background: #53DD6C;
+  color: #FFF;
+  margin-right: 10px;
+}
+
+.colour-red {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  color: #FF404F;
+}
+
+.red-circle {
+  border: 2px solid #FF404F;
+  border-radius: 50%;
+  padding: 20px;
+  background: #FF404F;
+  color: #FFF;
+  margin-right: 10px;
+}
+
+.colour-grey {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  color: #333333;
+}
+
+.grey-circle {
+  border: 2px solid #333333;
+  border-radius: 50%;
+  padding: 20px;
+  background: #333333;
+  color: #FFF;
+  margin-right: 10px;
+}
+
+.scores-croatia, .scores-czech, .scores-england, .scores-scotland {
+  margin-top: 40px;
+}
+
+/* Custom Font Declaration for Modal */
+@font-face {
+  font-family: 'Niramit Bold';
+  src: url('/project/font/Niramit-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Niramit Regular';
+  src: url('/project/font/Niramit-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed black;
+}
+
+.modal-header .title {
+  font-family: 'Niramit Bold';
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: 1px solid #ACAAA8;
+  border-radius: 100%;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+.modal-team-information, .modal-team-pedigree, .modal-team-website {
+  font-family: 'Niramit Regular';
+}
+
+.modal-captain-image {
+  display: block;
+  margin: 15px auto 0px auto;
+  width: 250px;
+  height: 250px;
+}
+
+.modal-captain-name {
+  font-family: 'Niramit Regular';
+  text-align: center;
+}
+
+.modal-team-website {
+  font-family: 'Niramit Regular';
+  color: #26ABFF;
+  text-align: center;
+}
+
+.modal-team-website:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #26ABFF;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+@media screen and (max-width: 800px) {
+  .group-table {
+    width: 90%;
+    padding: 16px 5px 24px;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .big-label {
+    display: none;
+  }
+
+  .small-label {
+    display: inline;
+    font-size: 14px;
+  }
+
+  .played-label, .won-label, .drawn-label, .lost-label, .team-points {
+    font-size: 14px;
+  }
+
+  .for-label, .against-label, .difference-label {
+    display: none;
+  }
+
+  .team {
+    font-size: 14px;
+  }
+
+  .form-guide {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 15px;
+  }
+
+  .croatia-form-guide {
+    grid-column: 1;
+    grid-row: 1;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .czech-form-guide {
+    grid-column: 1;
+    grid-row: 2;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .england-form-guide {
+    grid-column: 1;
+    grid-row: 3;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .scotland-form-guide {
+    grid-column: 1;
+    grid-row: 4;
+    width: 90%;
+    padding: 10px;
+  }
+}
