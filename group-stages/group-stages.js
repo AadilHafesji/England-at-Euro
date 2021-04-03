@@ -1,7 +1,7 @@
 // Get the navigation bar from the Home page
 // Get the footer from the Home page
-$('#navBar').load('../home.html #navBar');
-$('#footer').load('../home.html footer#footer');
+$('#navBar').load('/index.html #navBar');
+$('#footer').load('/index.html footer#footer');
 
 // Hide/Show Second Table
 // onClick toggle

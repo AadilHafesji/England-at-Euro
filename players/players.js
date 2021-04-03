@@ -1,8 +1,8 @@
 // Get the navigation bar from the Home page
 // Get the footer from the Home page
-$('#navBar').load('../home.html #navBar');
-$('#topOfPage').load('../home.html a#topOfPage');
-$('#footer').load('../home.html footer#footer');
+$('#navBar').load('/index.html #navBar');
+$('#topOfPage').load('/index.html a#topOfPage');
+$('#footer').load('/index.html footer#footer');
 
 function backToTop() {
   // window.scroll({ top: 2500, left: 0, behavior: 'smooth' });

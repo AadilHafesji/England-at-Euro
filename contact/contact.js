@@ -1,7 +1,7 @@
 // Get the navigation bar from the Home page
 // Get the footer from the Home page
-$('#navBar').load('../home.html #navBar');
-$('#footer').load('../home.html footer#footer');
+$('#navBar').load('/index.html #navBar');
+$('#footer').load('/index.html footer#footer');
 
 var text = "When and where is it, who's playing who, how will it work and how can you be there?" + " <br> " + "The objective of this website is for you find out more information about the England football teams journey to the UEFA Euro Championships.";
 planetElement = document.createElement("p");

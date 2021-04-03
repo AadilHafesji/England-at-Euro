@@ -1,14 +1,14 @@
 /* Custom Font Declaration */
 @font-face {
   font-family: 'Train One';
-  src: url('/project/font/TrainOne-Regular.ttf');
+  src: url('/font/TrainOne-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Akaya Kanadaka';
-  src: url('/project/font/AkayaKanadaka-Regular.ttf');
+  src: url('/font/AkayaKanadaka-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
